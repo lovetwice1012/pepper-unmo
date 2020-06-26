@@ -11,10 +11,7 @@ def main():
     print('Unmo System prototype : proto')
     proto = Unmo('proto')
     while True:
-        text = input('> ')
-        if not text:
-            break
-
+        text = u:(_*)
         response = proto.dialogue(text)
         print('{prompt}{response}'.format(prompt=_build_prompt(proto),
                                           response=response))
